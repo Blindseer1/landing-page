@@ -1,0 +1,28 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex:1 1 auto;
+    margin: 0 0;
+    padding: 0;
+   
+}
+
+
+.s1
+{
+    display: flex;
+    flex-direction: row;
+  
+}
+.s2
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
