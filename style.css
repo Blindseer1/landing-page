@@ -7,27 +7,25 @@ body{
     flex:1 1 auto;
     margin: 0 0;
     padding: 0;
+    font-family: 'Roboto',sans-serif;
    
 }
 
-
+/*first section   */
 .s1
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    flex: 1 1 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
+    min-width: 800px;
+    margin-bottom: 65px;
   
 }
-.s2
-{
-    display: flex;
-    flex-direction: row;
-    
-}
+
 ul
 {
     display: flex;
@@ -49,42 +47,137 @@ ul
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    justify-content: center;
+    align-items: center;
+   
+    padding: 0px 200px 100px 200px;
+    flex:1 1 auto;
+    
 }
+
+#eren-yeager
+{box-sizing: border-box;
+width:200;
+height: auto;
+border: none;}
 .links
 {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.up,
-.s3,
-.s4,
-footer
-{
-    padding:0 26px;
-}
 
-img
-{
-    box-sizing: border-box;
-    width: 200px;
-    height: auto;
-}
+
 .s2 p
 {
     display: flex;
     flex-direction: row ;
      flex:1 1 auto;
     
-     width:300px;
+     
      height: auto;
     margin: 0 0;
     flex-wrap: wrap;
 }
 .s2
 {
+    flex-direction: row;
     display: flex;
    align-items:start;
-   gap:30px;
+   gap:50px;
+   
+   justify-content: flex-start;
+   flex: 1 1 auto;
+  width: 800px;
+}
+
+#hero
+{
+    font-size: 48px;
+    font-weight: bold;
+    color:#f9faf8;
+ 
+
+}
+.left-side
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap:4px;
+}
+
+button
+{
+   margin-top: 5px;
+    flex-grow:0 ;
+   height: 40px;
+   width: 120px;
+    padding: 1px 3px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    font-size: 18px;
+    color:#f9faf8;
+    font-weight: bold;
+}
+
+
+.sec
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+/*second section */
+.favanime
+{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px 10px  ;
+    margin: 10px 0 20px;
+}
+.s3
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+img
+{
+    box-sizing: border-box;
+    width: 250px;
+    height: 130px;
+    flex:0 1 auto;
+    border-style: solid;
+    border-color: rgba(105, 105, 235, 0.877);
+    border-radius: 6px;
+    padding: 0;
+    border-width: 4px;
+}
+#ani
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    
+}
+.anime 
+{
+    display: flex;
+    flex-direction: row;
+}
+.animes ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap:40px;
 }
