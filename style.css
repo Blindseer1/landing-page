@@ -181,3 +181,23 @@ img
     align-items: start;
     gap:40px;
 }
+
+/*third section */
+.s4
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 90px 40px;
+    justify-content: center;
+    align-items: end;
+    flex:1 1 auto;
+    font-weight: lighter;
+}
+#jake
+{
+   font-weight: bold;
+}
